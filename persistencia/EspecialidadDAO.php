@@ -14,5 +14,9 @@ class EspecialidadDAO{
                 from Especialidad
                 order by nombre asc";
     }
+    
+    
 }
+
+
 ?>

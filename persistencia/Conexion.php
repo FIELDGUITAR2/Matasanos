@@ -5,7 +5,7 @@ class Conexion{
     private $resultado;
     
     public function abrir(){
-        $this -> conexion = new mysqli("localhost", "root", "123456", "matasanos");
+        $this -> conexion = new mysqli("localhost", "root", "", "matasanos");
     }
     
     public function cerrar(){
@@ -18,6 +18,10 @@ class Conexion{
     
     public function registro(){
         return $this -> resultado -> fetch_row();
+    }
+    
+    public function filas(){
+        return $this -> resultado -> num_rows;
     }
     
 }
