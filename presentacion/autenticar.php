@@ -41,6 +41,9 @@ if(isset($_POST["autenticar"])){
 					</div>
 					<div class="card-body">
 						<form action="?pid=<?php echo base64_encode("presentacion/autenticar.php") ?>" method="post">
+							<?php
+								//envia la accion a autenticar encriptada en base 64 por methodo post
+							?>
 							<div class="mb-3">								
 								<input type="email" class="form-control" name="correo" placeholder="Correo">
 							</div>
