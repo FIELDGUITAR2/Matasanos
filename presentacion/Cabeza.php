@@ -30,7 +30,7 @@
             <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Pacientes</a>
         </li>
         <li class="nav-item" role="presentation">
-            <a href="cerrarSesion.php" class="nav-link" data-bs-toggle="tab">Cerrar sesion</a>
+            <a href="cerrarSesion.php" class="nav-link">Cerrar sesion</a>
         </li>
     </ul>
 
